@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color:black; color: white;">
+    <ul class="lang">
+        <li style="color: azure;">
+            javascript
+        </li>
+    </ul>
+</body>
+<script>
+    function addlang(langName) {
+        const l = document.createElement('li');
+        l.innerHTML = langName; 
+        document.querySelector('.lang').appendChild(l);
+    }
+
+    // Add new items
+    addlang("python");
+    addlang("script");
+
+    function addopt(langName) {
+        const l = document.createElement('li');
+        l.appendChild(document.createTextNode(langName));
+        document.querySelector('.lang').appendChild(l);
+    }
+
+    // Edit the second <li>
+    const second_lang = document.querySelector(".lang li:nth-child(2)");
+    if (second_lang) {
+        second_lang.innerHTML = "mojo";
+    }
+
+    // Add another item
+    addopt("dsa");
+
+    //remove element
+    const laslang=document.querySelector('li:last-child')
+    laslang.remove()
+</script>
+</html>
