@@ -1,0 +1,40 @@
+#f> p.one{
+    color: red;
+    background: #000;
+    margin-right: auto;
+    padding: 0;
+
+    
+
+}
+#f> #two{
+    color: blue;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+#f> #four{
+    color: rgb(0, 255, 51);
+    background-color:black;
+
+}
+#f> #five{
+    color: #b51212;
+    background-color: black;
+}
+#f> p.six{
+    color: blanchedalmond;
+    background-color: black;
+}
+#s a:hover{
+    color: #b51212;
+    background-color: yellow;
+}
+#s a:visited{
+    color: aqua;
+    background-color: rgb(111, 225, 11);
+}
+#s p.one{
+    color: bisque;
+    background-color: black;
+}

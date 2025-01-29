@@ -1,0 +1,26 @@
+p.one{
+    color: blue;
+}
+p.two{
+    color: aquamarine;
+}
+#uid{
+    color: rgb(250, 231, 215);
+}
+table,td,tr,th{
+        border: 1px solid black;
+        padding:0px;
+        margin: 2px;
+        background-color: antiquewhite;
+        border-collapse: collapse;
+}
+th{
+    padding: 3px;
+    margin: 60px;
+}
+tr{
+    color: aqua;
+}
+td{
+    color: azure;
+}
