@@ -1,0 +1,46 @@
+.container{
+    margin: auto;
+    text-align: center;
+    
+
+
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    font-size: 7vh;
+    text-shadow: 5px 5px 10px ;
+}
+*{
+
+    background-color: aqua;
+    margin: auto;
+    padding: 10px;
+    
+}
+#image{
+    margin: 10px;
+    padding: 2px;
+    display: inline-block;
+    width: 100%;
+}
+strong {
+    margin-bottom: 5px; 
+    display: inline-block; 
+  }
+  b, strong {
+    line-height: 2.0; /* Adjust as needed */
+  }
+
+para{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: large;
+    font-weight: 700;
+}
+a:hover {
+    color: red; /* Change color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
