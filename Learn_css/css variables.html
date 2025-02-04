@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: horizontal;
+            background-color: aqua;
+        }
+        .container{
+            background-color: rgb(49, 130, 130);
+        }
+        ul>li{
+            list-style: none;
+            padding: 34px;
+            margin: 20px;
+            border:2px solid black;
+
+        }
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-direction: row-reverse;
+    
+        }
+        li:first-child{
+            background-color: orange;
+            padding: 20px;
+        }
+        li:nth-child(2){
+            background-color: aquamarine;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        li:nth-child(3){
+            background-color: azure;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, alias tenetur quas ratione, rem voluptatem explicabo sapiente iusto ex consequatur itaque dolorem velit asperiores vero, unde est voluptatibus minus? Corporis voluptates fugiat magni quod eos labore, in officia molestiae itaque rem id. Obcaecati, ex fugit?
+    </div>
+</body>
+</html>

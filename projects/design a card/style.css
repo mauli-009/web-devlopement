@@ -1,69 +1,52 @@
 *{
-    padding: 2px;
-    margin: 2px;
-    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: gray;
+
+    width: 344px;
+    height: 544px;
+    margin:20px ;
+    border-radius: 12px;
+}
+.image img{
+    width: 333px;
+    padding: 5px 5px;
+    border-radius: 12px;
+    margin: 0;
+}
+.capsules span{
+    border: 2px solid;
+    margin: 10px ;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: cursive;
+    color: rgb(170, 175, 23);
+    
+
+}
+span :nth-child(1){
+    padding: 2px ;
+}
+.capsules{
+    margin: 5px;
+
     
 }
-.parent {
-    margin: 2px;
-    padding: 10px 20px;
-    border: 2px solid;
-    border-radius: 20px;
-    width: 100%; /* Ensure the parent has a width */
-    max-width: 500px; /* Optional: set a max width */
-    background-color: antiquewhite;
-    align-items: center;
- 
-}
+.content h1{
+    margin: 20px 10px;
 
-.im {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 20px;
-    object-fit: cover; /* Ensures the image fits */
-    display: block; /* Helps with centering */
-    margin: 0 auto; /* Centers the image */
+   
 }
-
-.but1 {
-    background-color: rgb(142, 142, 98);
-    border: 1px solid black; /* Correct border syntax */
-    border-radius: 8px;
-    padding: 8px 16px;
-    cursor: pointer; /* Better UX */
+.content p{
+    margin: 5px;
 }
-
-.but1:last-child {
-    margin-right: 0;
-}
-
-.but1:last-child{
-    margin-right: 0;
-}
-.heading {
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: rgb(10, 78, 55);
-    color: rgb(36, 17, 17); /* Ensure text is readable */
-    padding: 10px;
-}
-
-.content{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
-}
-.butt {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    gap: 10px; /* Adds space between buttons */
-}
-
-.butt1{
-
-    border: 1px solid black;
-    border-radius: 20px;
-    background-color: azure;
-    align-items: center;
-    cursor: pointer;
+.content button{
+    margin: 23px 100px;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: small;
+    color: blue;
+    background-color: blanchedalmond;
 }
