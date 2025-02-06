@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and clear</title>
+    <style>
+        .card{
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+        }
+        img{
+            float: left;
+            
+        }
+        .container{
+            margin: 3px;
+            padding: 3px ;
+            display: flow-root;
+        }
+        .container :nth-child(2 ){
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img width="230" src="https://imgs.search.brave.com/AZkKYOifhfns8OmMQcTUfP9YTKWXy4N2vwDbbzYEV9U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2I2L1BlbmNpbF9k/cmF3aW5nX29mX2Ff/Z2lybF9pbl9lY3N0/YXN5LmpwZw" alt="">
+        <div class="card">crad1
+            <p >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt qui, ipsam consequatur expedita nesciunt tempore natus cumque error commodi aliquam, omnis labore?
+            </p>
+        </div>
+        <div class="card">card2
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti laboriosam asperiores voluptas minima nostrum quis non, ipsum adipisci corrupti itaque nisi ab dolorem totam fugit laborum earum placeat error obcaecati!
+        </div>
+        <div class="card">card3
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae rerum, vero itaque aliquid incidunt voluptates eos delectus exercitationem dolorum et quasi cum, accusamus ipsum mollitia ducimus cumque ad officiis!
+        </div>
+    </div>
+    
+</body>
+</html>
