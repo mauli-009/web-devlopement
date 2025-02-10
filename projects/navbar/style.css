@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+}
+
+.container {
+    display: flex; /* Makes everything in a row */
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; 
+    padding: 10px 20px;
+    height: 80px;
+    
+}
+.logo-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+h1{
+    font-size: 24px;
+    margin: 0; /* Removes default margin */
+   
+}
+h1,h6{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; /* Spacing between menu items */
+}
+
+.item {
+    padding: 10px;
+}
+
