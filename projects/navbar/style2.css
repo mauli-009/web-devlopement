@@ -1,0 +1,100 @@
+.logo {  
+}
+
+.logo img{
+    width: 164px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+    background-color: white; /* Ensures navbar remains visible */
+    z-index: 1000; /* Keeps navbar on top of other elements */
+    padding: 10px 0; /* Optional: Adjusts spacing */
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+.grid_container{
+
+    border: 2px solid black;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 34px;
+    padding: 12px;
+}
+.items{
+    
+    background-color: blanchedalmond;
+    box-shadow: 12px 12px 12px ;
+}
+
+.i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9,.i10{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 1px ;
+
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    transform: translateY(70px) translateX(-70px);
+    border-radius: 24px;
+    height: 32px;
+    border: none;
+    background-color: rgb(192, 255, 31);
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .right ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr; /* 2 columns for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .grid_container {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+}
+
+
+@media (max-width: 768px) {
+    button {
+        transform: none; /* Reset transforms */
+        margin: 10px auto;
+        display: block;
+    }
+}

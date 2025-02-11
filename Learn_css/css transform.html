@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            /* transform: rotate(40deg);  */
+            /* we aslo use turn unit means 0.25 turn means 260*0.25 */
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            /* display: flex ; this applid only on the conatainer hence it applid inside the container */
+            /* roatate  x and y also present */
+            /* transform: scale(2); */
+            /* incrrease times  */
+            transform: translatey(34px) translatex(34px);
+
+        }
+
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid brown;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box
+
+        </div>
+    </div>
+    
+</body>
+</html>
