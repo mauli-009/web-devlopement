@@ -1,0 +1,55 @@
+ul {
+    list-style: none;
+}
+
+
+
+.items {
+    border: 2px solid black;
+    height: 64px;
+    width: 90vw;
+    padding-top: 32px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    gap: 64px;
+    font-family: fantasy;
+}
+
+.ball-container {
+    height: 80vh;
+    width: 94.5%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    position: relative; 
+}
+
+@keyframes animationX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 90%;
+    }
+}
+
+@keyframes animationY {
+    from {
+        top: 0;
+        background-color: brown;
+    }
+    to {
+        top: 82.4%; 
+        background-color: aqua;
+    }
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(190, 46, 80);
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation: animationY 1s infinite ease-out alternate,animationX 20s infinite linear;
+}
