@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:max(1200px,100vw);
+    
+}
+.main > .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.;
+    position: absolute;
+    top:0;
+    background-color: black;
+    opacity: 0.44;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px   ;
+    max-width: 60vw;
+    margin: auto;
+    height: 62px;
+    
+
+}
+nav img{
+    color: red;
+    width: 150px;
+    /* for the pop out of the background we use position:  relative ; and z index */
+    position: relative;  
+    z-index: 20;
+    
+}
+nav button{
+    width: 150px;
+    
+    position: relative;
+    z-index: 10;
+}
+.lang{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+.sign-in{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+
+
